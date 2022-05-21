@@ -58,6 +58,8 @@ type Segment interface {
 
 	Type() string
 	Version() uint32
+
+	Timestamp() (int64, int64)
 }
 
 type DictionaryLookup interface {

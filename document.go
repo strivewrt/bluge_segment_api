@@ -17,6 +17,7 @@ package segment
 type Document interface {
 	Analyze()
 	EachField(vf VisitField)
+	Timestamp() int64
 }
 
 type VisitField func(Field)
