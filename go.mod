@@ -1,6 +1,6 @@
 module github.com/blugelabs/bluge_segment_api
 
-go 1.14
+go 1.16
 
 require (
 	github.com/RoaringBitmap/roaring v0.9.1
